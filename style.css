@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-bg{
+    background: #264653;
+    
+
+}
+.banner-text h1{
+    font-size: 55px;
+}
+.button-color{
+    background: #E76F51;
+
+}
+.orange-color{
+    color: #E76F51;
+}
+.featured-bike-img{
+    width: 288px;
+    height: 243px;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+.custom-img{
+    width: 431.2px;
+    height: 423.5px;
+}
+.helmet{
+    border-radius: 20px;
+    cursor: pointer;
+}
+.helmet img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.anchor{
+    text-decoration: none;
+}
+/* for-phone */
+@media only screen and (max-width: 767px){
+    .banner-img img{
+        width: 321px;
+        height: 260px;
+       
+    }
+    .banner-text h1{
+        font-size: 38px;
+    }
+}
